@@ -35,7 +35,13 @@ class person {
     this.name = name;
     this.age = age;
   }
+  talk(){
+  return `${this.name} talking`
+  }
 }
 const person3 = new person("berlin", 34);
-console.log(person3.age);
+person3.talk()
 // here person3 is instance of person
+
+
+
